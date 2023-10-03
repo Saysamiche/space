@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-image: url(/Images/home/background-home-desktop.jpg);
+    background-image: url(./Images/home/background-home-desktop.jpg);
     color: white;
     background-position: center;
     background-size: cover;

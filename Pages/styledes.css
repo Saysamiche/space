@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-image: url(/Images/destination/background-destination-desktop.jpg);
+    background-image: url(../Images/destination/background-destination-desktop.jpg);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,8 +11,7 @@ body{
     width: 100%;
 }
 .image-mar{
-padding: 60px 0 0 130px;
-
+    padding: 60px 0 0 130px;
 }
 .span{
     color: gray;
