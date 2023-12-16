@@ -50,7 +50,7 @@ body{
 
 @media (max-width: 1280px){
     body{
-        background-image: url(/Images/home/background-home-tablet.jpg);
+        background-image: url(./Images/home/background-home-tablet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -104,7 +104,7 @@ body{
 
 @media (max-width: 1090px){
     body{
-        background-image: url(/Images/home/background-home-mobile.jpg);
+        background-image: url(./Images/home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover
     }

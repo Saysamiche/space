@@ -1,0 +1,152 @@
+body{
+    background-image: url(../Images/technology/background-technology-desktop.jpg);
+    background-position: cover;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+#main{
+    margin: 80px 0 0 0;
+    width: 100%;
+}
+
+.span{
+    color: gray;
+}
+.space{
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-left:  145px;
+}
+.all{
+    display: flex;
+}
+.picture{
+    padding: 20px 0 15px 150px;
+}
+.number{
+    width: 10%;
+    padding-top: 90px;
+    margin-left: 120px;
+}
+.tech{
+    width: 65%;
+    padding: 115px 0 0 80px;
+    line-height: 25px;
+
+}
+.the{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    color: rgb(240, 225, 240);
+    padding-top: 10px;
+}
+.launch{
+    font-size: 32px;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+.rocket{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgb(240, 225, 240);
+}
+.first, .second, .third{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px 10px 0 0;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 22px;
+    border: 1px solid gray;
+}
+.first:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.second:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+.third:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1280px){
+    body{
+        background-image: url(../Images/technology/background-technology-tablet.jpg);
+    }
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    .navbar a{
+        padding: 5px 0;
+        margin: 0 20px;
+    }
+
+}
+
+@media (max-width: 1090px) {
+    body{
+        background-image: url(../Images/technology/background-technology-mobile.jpg);
+    }
+    #menu-icon{
+        display: block;
+    }
+    .navbar {
+      position: absolute;
+      top: 100%;
+      right: 2%;
+      width: 270px;
+      height: 29vh;
+      background: rgb(32, 42, 54);;
+      color: rgb(32, 42, 54);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border-radius: 10px;
+      transition: all .50s ease;
+    }
+    .navbar a{
+        display: block;
+        margin: 5px 0;
+        padding: 0 20px;
+        transition: all .50s ease;
+    }
+    .navbar a:hover{
+        transform-style: flat;
+        border: none;
+        text-decoration: none;
+        transition: all 0.50s ease;
+    }
+    .lass{
+        width: 250px;
+    }
+    .space{
+        margin-top: 120px;
+    }
+    .number{
+        padding-top: 80px;
+    }
+    .tech{
+        padding-top: 80px;
+    }
+    .picture{
+        float: left;
+    }
+
+}
