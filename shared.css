@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background-image: url(/Images/home/background-home-desktop.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+#header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding-top: 20px;
+    transition: all 0.50s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 45%;
+}
+.logo img{
+    font-size: 28px;
+    margin-right: 3px;
+}
+.lass{
+    width: 500px;
+    border: 1px solid rgb(32, 42, 54);
+    margin-left: 55px;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(32, 42, 54);
+    height: 70px;
+    padding: 25px 25px 0 25px;
+    width: 55%;
+
+}
+.navbar a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 52px;
+    transition: all 0.50s ease;
+}
+.navbar a:hover{
+    transform-style: flat;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 22px;
+    transition: all 0.50s ease;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+#menu-icon{
+    font-size: 35px;
+    color: white;
+    z-index: 1001;
+    display: none;
+    margin-left: 20px;
+}
