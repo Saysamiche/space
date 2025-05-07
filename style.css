@@ -1,166 +1,90 @@
-body{
-    min-height: 100vh;
-    background-image: url(./Images/home/background-home-desktop.jpg);
-    color: white;
-    background-position: center;
-    background-size: cover;
+body {
+  min-height: 100dvh;
+  background-image: url(./Images/home/background-home-desktop.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+.upper {
+  width: 100%;
+  height: 88dvh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.travel {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.space {
+  font-size: 135px;
+  font-weight: 500;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.face {
+  width: 100%;
+  max-width: 500px;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+}
+.explore {
+  width: 240px;
+  height: 240px;
+  border: none;
+  border-radius: 120px;
+  background-color: white;
+  padding-top: 100px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
-.upper{
+@media (max-width: 1246px) {
+  body {
+    background-image: url(./Images/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url(./Images/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .upper {
+    display: block;
+  }
+  .class {
     width: 100%;
+    max-width: 600px;
+    margin: 70px auto;
+  }
+  .circle {
     text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
 }
-.class{
-    width: 50%;
-    text-align: justify;
-    padding-left: 150px;
-    padding-top: 200px;
-    position: absolute;
-}
-.travel{
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-.space{
-    font-size: 135px;
+@media (max-width: 450px) {
+  .space {
+    font-size: 80px;
     font-weight: 500;
     margin-top: 10px;
     letter-spacing: 2px;
-}
-.face{
-    font-size: 18px;
-}
-.circle{
-    float: right;
-    margin: 270px 120px 100px 0;
-    position: relative
-}
-.explore{
-    width: 240px;
-    height: 240px;
-    border: none;
-    border-radius: 120px;
-    background-color: white;
-    padding-top: 100px;
-    color: black;
-    font-size: 30px;
-    letter-spacing: 2px;
-}
-
-@media (max-width: 1280px){
-    body{
-        background-image: url(./Images/home/background-home-tablet.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    header{
-        padding: 14px 2%;
-        transition: .2s;
-    }
-    .navbar{
-        background-color: rgb(32, 42, 54);
-        height: 70px;
-        padding: 25px 25px 0 25px;
-        width: 55%;
-    }
-    .logo{
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-    width: 45%;
-}
-    .navbar a{
-        padding: 5px 0;
-        margin: 0 20px;
-        font-size: 12px;
-    }
-    .upper{
-        width: 65%;
-        text-align: center;
-    }
-    .class{
-        text-align: center;
-        margin: 80px 0 60px 250px;
-        width: 55%
-    }
-    .travel{
-        font-size: 18px;
-    }
-    .space{
-        font-size: 100px;
-        font-weight: 500;
-        margin-top: 5px;
-        letter-spacing: 2px;
-    }
-    .face{
-        font-size: 16px;
-    }
-    .circle{
-        padding: 100px 0 0 200px;
-        margin: 700px 0 0 600px;
-    }
-}
-
-@media (max-width: 1090px){
-    body{
-        background-image: url(./Images/home/background-home-mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover
-    }
-    #menu-icon{
-        display: block;
-    }
-    .navbar {
-      position: absolute;
-      top: 100%;
-      right: 2%;
-      width: 270px;
-      height: 29vh;
-      background: rgb(32, 42, 54);
-      color: rgb(32, 42, 54);
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      border-radius: 10px;
-      transition: all .50s ease;
-    }
-    .navbar a{
-        display: block;
-        margin: 5px 0;
-        padding: 0 20px;
-        transition: all .50s ease;
-    }
-    .navbar a:hover{
-        transform-style: flat;
-        border: none;
-        text-decoration: none;
-        transition: all 0.50s ease;
-    }
-    .lass{
-        width: 250px;
-    }
-    .upper{
-        width: 100%;
-        text-align: center;
-    }
-    .class{
-        padding: 180px 100px 0 0;
-        position: absolute;
-    }
-    .travel{
-        font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-    .space{
-        font-size: 60px;
-        font-weight: 500;
-        margin-top: 5px;
-        letter-spacing: 2px;
-    }
-    .circle{
-        padding: 300px 20px 0 0;
-    }
-
+  }
+  .face {
+    font-size: 16px;
+  }
+  /* .circle {
+    max-width: 100px;
+  } */
 }
