@@ -57,7 +57,7 @@ body {
     background-image: url(./Images/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .upper {
     display: block;
