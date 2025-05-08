@@ -132,4 +132,7 @@ body {
   .picture {
     width: 50%;
   }
+  .number {
+    margin-top: -20px;
+  }
 }

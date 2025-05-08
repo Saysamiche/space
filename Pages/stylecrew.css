@@ -88,14 +88,21 @@ body {
 }
 
 @media (max-width: 1115px) {
+
+  .float {
+    width: 35%;
+  }
+  .float img {
+    width: 100%;
+  }
   .name {
     font-size: 30px;
   }
   .ansari {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .fly {
-    padding-top: 140px;
+    padding-top: 80px;
   }
   .first,
   .second,
@@ -110,7 +117,6 @@ body {
   }
   body {
     background-image: url(../Images/crew/background-crew-mobile.jpg);
-    overflow: hidden;
   }
   .all {
     width: 100%;
@@ -119,7 +125,7 @@ body {
     text-align: center;
   }
   .meet {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .float {
     width: 100%;
@@ -129,19 +135,39 @@ body {
   }
   .align {
     width: 100%;
+    margin-top: 0;
   }
   .fly {
-    padding-top: 10px;
+    padding-top: 15px;
+  }
+  .name {
+    margin-top: 15px;
   }
   .ansari {
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 20px;
+    margin: 20px;
   }
   .first,
   .second,
   .third,
   .fourth {
     margin: 0 5px;
-    margin-top: 20px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 370px) {
+  .meet {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .fly {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .ansari {
+    font-size: 16px;
   }
 }

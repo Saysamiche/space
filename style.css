@@ -65,7 +65,7 @@ body {
   .class {
     width: 100%;
     max-width: 600px;
-    margin: 70px auto;
+    margin: 50px auto;
   }
   .circle {
     text-align: center;
@@ -84,7 +84,4 @@ body {
   .face {
     font-size: 16px;
   }
-  /* .circle {
-    max-width: 100px;
-  } */
 }
